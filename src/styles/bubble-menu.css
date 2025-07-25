@@ -1,0 +1,41 @@
+.bubble-menu {
+  background-color: #beb4b47b;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.bubble-menu button {
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  margin: 0px 2px ;
+  padding: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.bubble-menu button.is-active {
+  color: rgba(103, 116, 218, 0.564);
+  font-weight: bold;
+}
+
+
+.editor-content h1{
+    text-align: center; 
+    margin: 1rem;
+}
+
+.editor-content h2{
+    margin: 1rem;
+}
+
+
+.bubble-menu-highlight{
+  background-color: rgba(255, 255, 0, 0.5); 
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.tippy-box[data-theme~='light'] > .tippy-arrow {
+  color: #333; /* okun rengi */
+}
