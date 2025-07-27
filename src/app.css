@@ -1,0 +1,15 @@
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+code {
+  display: inline-block;
+  white-space: pre-wrap;
+  word-break: break-word; 
+  background: rgba(189, 183, 176, 0.224);
+  max-width: 100%; 
+}
+
+

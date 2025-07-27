@@ -29,9 +29,9 @@ export default function TiptapBubbleMenu({editor}) {
   return (
     <BubbleMenu
           editor={editor}
-          tippyoptions={{ placement: "top",offset: 8 }}
+          tippyoptions={{ placement: "top",offset: 8, interactive:true }}
         >
-          <div className="bubble-menu">
+          <div className="bubble-menu center-flex ">
             <button
               onClick={() => editor.chain().focus().toggleBold().run()}
               className={editor.isActive("bold") ? "is-active" : ""}
@@ -44,7 +44,7 @@ export default function TiptapBubbleMenu({editor}) {
               className={editor.isActive("italic") ? "is-active" : ""}
               type="button"
             >
-              <ItalicOutlined />
+              <ItalicOutlined/>
             </button>
             <button
               onClick={() => editor.chain().focus().toggleUnderline().run()}

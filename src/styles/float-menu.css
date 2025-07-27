@@ -1,0 +1,55 @@
+.float-menu {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(
+    -50%
+  ); 
+  background: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 999; 
+  gap: 0.5rem;
+}
+
+.seperator{
+  border-right: 1px solid #5e5a5a86;
+  height: 1.5rem;
+}
+
+.tiptap:first-child {
+  margin-top: 0;
+}
+
+.tiptap pre {
+  background: #171717;
+  border-radius: 0.5rem;
+  color: white;
+  font-family: 'JetBrainsMono', monospace;
+  margin: -1rem 0;
+  padding: 0.75rem 1rem;
+}
+
+.tiptap pre code {
+  background: none;
+  color: inherit;
+  font-size: 1rem;
+  padding: 0;
+}
+
+
+.float-menu-link{
+    cursor: pointer;
+}
+
+.float-menu-list{
+  margin-left: 3rem;
+  
+}
+
+.float-menu-horizontal-rule{
+  color: rgba(72, 69, 69, 0.648);
+  border-radius: 1px;
+  margin: 3rem 0;
+}

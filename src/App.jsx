@@ -1,4 +1,5 @@
 import "./app.css"
+import 'katex/dist/katex.min.css';
 
 import { Routes, Route } from "react-router-dom";
 
